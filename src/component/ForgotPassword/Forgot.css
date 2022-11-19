@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Forgot{
+    background-image: url(/src/image/padlock.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ForgotMain{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 4px gray;
+}
+.ForgotCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ForgotDetails{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.forgotpwd{
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.ForgotDetails h1{
+    font-size: 40px;
+    color: rgb(59, 82, 59);
+    /* text-align: center; */
+}
+.ForgotDetails  p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.forget-input{
+    color: black;
+   outline: none;
+   background: transparent;
+   width: 90%;
+   font-size: 22px;
+   border: none;
+   margin-left: 20px;
+   padding: 10px 0;
+   border-bottom:1px  #691f48 solid;
+}
+.btn-next{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.next{
+    border-radius: 10px;
+    padding: 12px;
+    background-color:rgb(59, 82, 59);
+    color: white;
+}

@@ -1,0 +1,105 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(100, 102, 100, 0.664), rgba(124, 161, 135, 0.63)), url(/src/image/People.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  height: 500px;
+  padding: 15px 20px;
+  max-width: 500px;
+  box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.37) ;
+  border-radius: 10px;
+  }
+  .welcome{
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  .cont h2{
+   margin: 10px  auto;
+   font-weight: 300;
+  }
+
+ 
+  .login-form input[type="email"], input[type="password"]{
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px #691f48 solid;
+    padding: 10px 0;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  
+  .mainemail{
+    display: flex;
+    align-items: center;
+  
+  }
+  .forget{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 15px;
+    
+    color: #691f48;
+  }
+
+ 
+
+  #logsignup{
+    margin: 0 auto;
+    font-size: 17px;
+
+  }
+
+  .sub{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .sub p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .Login_check{
+    display: flex;
+
+  }
+  .Login_btn button{
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #691f48db;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .LoginSide{
+    background-color: #691f48;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .Login_form input[type="email"], input[type="password"]{
+      width: auto;
+    }
+  }

@@ -1,0 +1,21 @@
+.verification-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.my-icon{
+    color: green;
+    font-size: 35px;
+    border: 1px green solid;
+    border-radius: 50%;
+    padding: 40px;
+}
+.verification-main h2{
+    color: rgba(0, 0, 139, 0.787);
+    border-bottom: 1px rgba(128, 128, 128, 0.489) solid;
+    padding-bottom: 25px;
+}
